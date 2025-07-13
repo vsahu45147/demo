@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h2>Job Application Form</h2>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="fullname">FullName:</label> <br>
+            <input type="text" name="full_name" id="fullname" placeholder="Viswanatha Sahu" required minlength="3" maxlength="10"> <br>
+        <label for="email">Email:</label> <br>
+            <input type="email" name="name" id="email" placeholder="viswasahu2003@gmail.com" required> <br>
+        <label for="password">Password:</label> <br>
+            <input type="password" name="pass" id="password"required minlength="8" maxlength="15"> <br>
+        <label for="phone">Phone Number:</label> <br>
+            <input type="tel" name="ph" id="phone" required placeholder="8546452554"> <br>
+        <label for="age">Age:</label> <br>
+            <input type="number" name="age" id="age" required minlength="16" maxlength="40" placeholder="22"> <br>
+        <label for="dob">Date of Birth:</label> <br>
+            <input type="date" name="dob" id="dob" required> <br>
+        <label for="rate">Rate Yourself:</label> <br>
+            <input type="range" name="rating" id="rate" step="2" min="0" max="10" value="10"> <br>
+        <label for="resume">Upload Resume:</label> <br>
+            <input type="file" name="resume" id="resume" required accept=".pdf,.doc,.docx" multiple> <br>
+        <label>Gender: </label> <br>
+        <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" required value="MALE">
+    <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" required value="FEMALE"> <br>
+    <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" required value="OTHERS"> <br>
+        <label for="country">Country:</label> <br>
+        <select name="country" id="country" required>
+            <option value="IN">India</option>
+            <option value="US">United State</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            </select> <br>
+
+        <label for="skill">Skill:</label> <br>
+        <input type="skills" list="skills" id="skill" name="skill" placeholder="Type a skill"> <br>
+        <datalist id="skills">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JavaScript"></option>
+            <option value="Python"></option>
+            <option value="Java"></option>
+            <option value="C++"> </option>
+            <option value="C#"> </option>
+            <option value="PHP"> </option>
+            <option value="Ruby">   </option>
+            <option value="Swift"> </option>
+            <option value="Kotlin"> </option>
+            <option value="Go"> </option>
+            <option value="Rust"> </option>
+            <option value="TypeScript"> </option>
+            <option value="SQL"> </option>
+            <option value="NoSQL"> </option>
+            <option value="React"> </option>
+            <option value="Angular"> </option>
+            <option value="Vue.js"> </option>
+            <option value="Django"> </option>
+            <option value="Flask"> </option>
+            <option value="Spring"> </option>
+            <option value="Laravel"> </option>
+            <option value="Express.js"> </option>
+            <option value="ASP.NET"> </option>
+            <option value="Ruby on Rails"> </option>
+        </datalist> <br> 
+        <input type="checkbox" name="terms" id="terms" required> <br>
+        <label for="terms">I agree to the terms and conditions</label> <br>
+<!--<input type="submit" value="Submit">-->
+        <button type="reset">Reset</button>
+        <button>Submit</button>
+
+
+    </form>
+    <a href="./about.html">About Us</a>
+</body>
+</html>
