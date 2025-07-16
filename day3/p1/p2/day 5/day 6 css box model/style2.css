@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 800px;
+    background-color: rgb(244, 0, 0);
+}
+.one{
+    background-color: aqua;
+    width: 50%;
+    padding: 20px;
+    border: 10px solid teal;
+    color: blueviolet;
+}
+.two{
+    background-color: blueviolet;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 40px;
+    outline: 10px solid greenyellow;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
