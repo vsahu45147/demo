@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+p{
+    background-color: chartreuse;
+    /* width: 500px; */
+    width: 50%;
+    height: 50%;
+    padding: 10%;
+    margin: 10%;
+    /* border: 10% solid black; */
+    font-size: 200%;
+    /* it relates to the parent element Font size */
+}
+div{
+    /* width: 400px; */
+    width: 50%;
+    height: 400px;
+    /* height: 50%; */
+    font-size: 30px;
+    /* viwe port */
+    width:50vh;
+    height:25vh;
+    border: 1vh solid red;
+    font-size: 3vh;
+
+}

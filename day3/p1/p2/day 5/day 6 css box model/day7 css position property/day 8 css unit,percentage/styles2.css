@@ -1,0 +1,30 @@
+* {
+margin: 0;
+}
+
+div {
+background-color: violet;
+width: 50vw;
+height: 50vh;
+padding: 5vw;
+border: 1vw solid red;
+font-size: 2em;
+}
+
+p {
+background-color: chartreuse;
+width: 50%;
+height: 50%;
+margin: 10%;
+font-size: 3em; 
+}
+body {
+    /* font-size - 40px */
+    font-size: 3em;/*120px*/
+    /* Font-size: 3rem */
+    /* (rem) => root em => always relates the Font size oF the element */
+
+}
+html{
+    font-size: 10px;
+}
